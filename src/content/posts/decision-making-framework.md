@@ -5,9 +5,14 @@ pubDate: 2024-09-05
 tags: ["decision-making", "leadership", "product-management", "engineering"]
 ---
 
-You need to decide: build vs buy, microservices vs monolith, this framework vs that one.
+Most days in tech feel like a never ending choose your own adventure book.
 
-Here's how to decide well.
+Do we ship this quarter or next quarter, build vs buy, microservices vs monolith, this framework vs that one.
+
+The good news is that great decision makers are rarely born that way.
+They use a simple process, run it repeatedly, and learn in public when they are wrong.
+
+Here is a lightweight framework you can use on everything from architecture to where to spend your next week.
 
 ## The Framework
 
@@ -42,9 +47,17 @@ At some point, decide. Don't infinite loop. Commit and move.
 
 **6. Review later**
 Was this the right call? What did you learn?
+Capture the decision, the context, and what you expect to happen.
+Future you will be strangely grateful for a three line note.
 
 ## The Secret
 
-Perfect decisions don't exist. Good decisions are made well and reviewed honestly.
+Perfect decisions do not exist.
+Good decisions are made with intention, written down, and reviewed honestly.
 
-Don't overthink. Don't underthink. Decide.
+Your job is not to be right all the time.
+Your job is to make clear calls that move things forward, then learn fast when reality disagrees.
+
+Do not overthink.
+Do not underthink.
+Decide, then make the next decision a little better than the last.

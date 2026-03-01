@@ -5,7 +5,9 @@ pubDate: 2024-01-08
 tags: ["api-gateway", "architecture", "backend", "microservices"]
 ---
 
-Your services are growing. You have a web app, mobile app, third-party integrations. They're all hitting your services directly.
+Your services are growing.
+You have a web app, a mobile app, and a few third party integrations.
+They are all hitting your services directly.
 
 This is a problem. Here's why, and how to fix it.
 

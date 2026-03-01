@@ -5,9 +5,11 @@ pubDate: 2024-02-05
 tags: ["incidents", "on-call", "devops", "emergency-response"]
 ---
 
-It's 2am. Your pager goes off. Something is broken in production. Users are angry.
+It is 2 a.m.
+Your pager goes off.
+Something is broken in production and users are understandably annoyed.
 
-Here's how to handle it without losing your mind.
+Here is how to handle it without losing your mind or your weekend.
 
 ## The First 5 Minutes
 

@@ -5,11 +5,13 @@ pubDate: 2024-07-10
 tags: ["api", "architecture", "backend", "product-development"]
 ---
 
-You have an idea for a product. You start building the UI. You figure out the backend as you go.
+You have an idea for a product.
+You open your editor, start sketching the UI, and promise yourself you will figure out the backend later.
 
-This works until it doesn't.
+This works surprisingly well until it absolutely does not.
 
-Here's an alternative: API first.
+Here is an alternative that scales much better than vibes.
+API first.
 
 ## Why API First
 
@@ -53,6 +55,10 @@ API Contract -> Frontend
 
 ## The Result
 
-Cleaner architecture. Faster development. Better client experience.
+Cleaner architecture.
+Faster development.
+Better client experience.
 
-Think API first. Build second.
+Think API first.
+Build second.
+Argue about button colors later.

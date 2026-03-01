@@ -7,7 +7,7 @@ tags: ["testing", "quality", "engineering", "roi"]
 
 Tests cost money to write. They cost money to maintain. They make development slower.
 
-So why do we do it?
+So why do we keep doing it anyway?
 
 ## The Math
 

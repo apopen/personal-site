@@ -5,9 +5,13 @@ pubDate: 2023-07-10
 tags: ["meetings", "productivity", "time-management", "engineering"]
 ---
 
-You have a meeting. It's an hour. 6 people attend. That's 6 hours of productivity lost.
+You have a meeting.
+It is an hour.
+Six people attend.
+That is six hours of focused work that just vanished.
 
-Now do that 5 times a day. No wonder nothing gets done.
+Now do that five times a day.
+No wonder nothing gets done.
 
 ## The Multiplication
 

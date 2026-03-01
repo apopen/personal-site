@@ -49,6 +49,9 @@ return oldCheckoutFlow();
 
 Too many flags become technical debt. Clean them up. Remove old flags. Don't let them accumulate.
 
+Put a recurring reminder to delete flags that outlived their purpose.
+Future you and your debugging sessions will be grateful.
+
 ## Tools
 
 LaunchDarkly, Split, Optimizely, or simple config files for small teams.

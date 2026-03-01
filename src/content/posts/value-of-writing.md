@@ -5,9 +5,11 @@ pubDate: 2023-12-12
 tags: ["writing", "career-growth", "knowledge-sharing", "communication"]
 ---
 
-You write code all day. Maybe you write some docs. That's it.
+You write code all day.
+Maybe you write some docs when someone asks nicely.
+That is where most engineers stop.
 
-Here's why you should write more.
+Here is why you should write a little more than that.
 
 ## What Writing Does
 
@@ -30,21 +32,26 @@ Here's why you should write more.
 
 ## Getting Started
 
-**Start small** - A paragraph is fine. Don't aim for perfection.
+**Start small**: A paragraph is fine.
+Do not aim for perfection.
 
-**Write regularly** - Even 15 minutes a week helps.
+**Write regularly**: Even 15 minutes a week helps.
 
-**Don't overthink** - First draft is always bad. Edit later.
+**Do not overthink**: The first draft is always bad.
+Write it anyway, then edit.
 
-**Share it** - Writing nobody reads is wasted. Share broadly.
+**Share it**: Writing nobody reads is practice.
+Writing other people read is impact.
+Share broadly.
 
 ## The Excuse
 
-"I don't have time." You have 15 minutes. Everyone does.
+"I do not have time." You have 15 minutes. Everyone does.
 
-"I'm not a good writer." Neither was anyone else, at first.
+"I am not a good writer." Neither was anyone else at the start.
 
-"Nobody wants to read this." They might. You won't know until you try.
+"Nobody wants to read this." They might.
+You will not know until you try.
 
 ## The Real Reason
 

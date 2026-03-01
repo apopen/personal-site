@@ -5,9 +5,12 @@ pubDate: 2024-07-28
 tags: ["documentation", "engineering", "knowledge-sharing"]
 ---
 
-Your documentation exists. Nobody reads it. They ask questions in Slack instead.
+Your documentation exists.
+Nobody reads it.
+They ask questions in Slack instead and you paste the same link for the fifth time.
 
-This is a universal problem. Here's why.
+This is a universal problem.
+Here is why.
 
 ## Why Documentation Fails
 

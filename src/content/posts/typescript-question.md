@@ -5,9 +5,10 @@ pubDate: 2024-09-10
 tags: ["typescript", "javascript", "programming", "best-practices"]
 ---
 
-TypeScript is everywhere. Some teams require it. Others wonder if it's worth the overhead.
+TypeScript is everywhere.
+Some teams require it, others quietly wonder if it is worth the overhead.
 
-Here's how to think about it.
+Here is how to think about it.
 
 ## The Case For TypeScript
 

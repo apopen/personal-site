@@ -5,9 +5,11 @@ pubDate: 2023-08-05
 tags: ["incidents", "post-mortem", "learning", "engineering-culture"]
 ---
 
-Something broke. It got fixed. Now what?
+Something broke, everyone panicked a little, someone typed a heroic fix in production, and the graphs went back to normal.
+Now what?
 
-If you don't learn from incidents, they'll repeat.
+If you do not learn from incidents, they will repeat.
+Usually at 2 a.m. on a Sunday.
 
 ## The Blame Trap
 
@@ -57,6 +59,8 @@ After any significant incident, gather the facts:
 
 ## The Culture
 
-Good teams learn from failure. Great teams make it safe to report failure.
+Good teams learn from failure.
+Great teams make it safe and even a little boring to report failure.
 
-Build that culture. It compounds over time.
+Build that culture deliberately.
+It compounds over time and quietly saves you from the really scary incidents you never see.

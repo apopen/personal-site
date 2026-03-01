@@ -5,9 +5,11 @@ pubDate: 2024-04-01
 tags: ["angular", "react", "javascript", "frameworks"]
 ---
 
-Angular vs React. The most pointless debate in web development. Both are fine. Both ship production apps. Both have job markets.
+Angular vs React.
+The most persistent and least useful debate in web development.
+Both are fine, both ship production apps, and both have real job markets.
 
-Here's how to actually think about it.
+Here is how to actually think about it.
 
 ## The Differences
 

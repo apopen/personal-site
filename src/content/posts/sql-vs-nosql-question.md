@@ -5,9 +5,10 @@ pubDate: 2023-06-28
 tags: ["database", "sql", "nosql", "architecture"]
 ---
 
-NoSQL is faster. SQL is more mature. You need to choose.
+NoSQL is faster, SQL is more mature, and every conference talk claims both are the future.
+You still need to choose something for your actual application.
 
-Here's how to think about it.
+Here is how to think about it without getting lost in marketing.
 
 ## The Basics
 

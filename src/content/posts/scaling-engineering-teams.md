@@ -5,9 +5,11 @@ pubDate: 2023-10-30
 tags: ["scaling", "growth", "team-building", "leadership"]
 ---
 
-You're growing. You need more engineers. You hire 5 more. Output doesn't increase 5x. It might not increase at all.
+You are growing and you need more engineers.
+You hire five more and wait for output to jump.
+It does not increase five times. It might not increase at all.
 
-Here's why, and what to do instead.
+Here is why, and what to do instead.
 
 ## The Problem
 

@@ -5,7 +5,8 @@ pubDate: 2023-11-22
 tags: ["security", "engineering", "best-practices"]
 ---
 
-Security is not a feature you add at the end. It's a mindset that shapes how you build.
+Security is not a feature you bolt on at the end.
+It is a mindset that quietly shapes how you design, build, and operate systems.
 
 ## The Principles
 

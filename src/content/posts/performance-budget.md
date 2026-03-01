@@ -5,9 +5,11 @@ pubDate: 2024-03-25
 tags: ["performance", "web-performace", "optimization", "user-experience"]
 ---
 
-Your app loads in 3 seconds. Is that fast? It depends.
+Your app loads in 3 seconds.
+Is that fast, slow, or fine for now?
+Like most things in engineering, the answer is it depends.
 
-Here's how to think about performance.
+Here is how to think about performance without hand waving.
 
 ## The Metrics That Matter
 

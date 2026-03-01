@@ -6,8 +6,10 @@ tags: ["aws", "cloud", "infrastructure", "devops"]
 ---
 
 EC2, S3, RDS, Lambda, ECS, EKS, VPC, IAM, CloudFront, Route 53, SNS, SQS.
+If this already sounds like alphabet soup, you are not alone.
 
-AWS has hundreds of services. Here's the ones that matter.
+AWS has hundreds of services.
+Here are the ones that actually matter for most teams.
 
 ## The Essentials
 

@@ -5,7 +5,9 @@ pubDate: 2023-09-15
 tags: ["ci-cd", "devops", "deployment", "automation"]
 ---
 
-You push code. Something should happen. Eventually, hopefully, it runs in production.
+You push code.
+Something should happen.
+Eventually, hopefully, it runs in production and not only on your laptop.
 
 That's the CI/CD pipeline. Here's how to think about it.
 

@@ -5,7 +5,9 @@ pubDate: 2024-06-02
 tags: ["containers", "docker", "kubernetes", "devops"]
 ---
 
-It works on my machine. Famous last words. Then Docker came along.
+It works on my machine.
+Famous last words of broken deployments everywhere.
+Then Docker came along.
 
 Here's why containers matter.
 

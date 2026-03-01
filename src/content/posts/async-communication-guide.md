@@ -5,9 +5,11 @@ pubDate: 2024-05-20
 tags: ["communication", "remote-work", "productivity", "engineering-culture"]
 ---
 
-Your inbox is chaos. Slack is noise. Meetings are everywhere.
+Your inbox is chaos.
+Slack is noise.
+Your calendar looks like a game of Tetris you are losing.
 
-Here's how to fix it.
+Here is how to fix it without quitting your job and moving to a cabin.
 
 ## The Hierarchy
 

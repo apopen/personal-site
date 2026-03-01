@@ -5,9 +5,11 @@ pubDate: 2024-02-22
 tags: ["career-growth", "senior-engineer", "skills", "mindset"]
 ---
 
-Junior engineers write code. Senior engineers solve problems.
+Junior engineers write code.
+Senior engineers solve problems and make sure the same fire does not happen twice.
 
-That's the difference. Let me explain.
+That is the difference.
+Let me explain.
 
 ## What Juniors Do
 
@@ -52,6 +54,9 @@ Technical skills plateau. The higher you go, the less code you write, the more y
 
 ## The Truth
 
-Seniority isn't about years. It's about impact. Anyone can be senior if they focus on the right things.
+Seniority is not about years.
+It is about impact and how you create it through other people.
+Anyone can become senior if they focus on the right things long enough.
 
-Code is the start. It's not the destination.
+Code is the start.
+It is not the destination.
