@@ -1,0 +1,24 @@
+{
+  "name": "dreary-doppler",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.13",
+    "@astrojs/rss": "^4.0.15",
+    "@astrojs/sitemap": "^3.7.0",
+    "@astrojs/vercel": "^9.0.4",
+    "@tailwindcss/vite": "^4.2.1",
+    "@vercel/analytics": "^1.6.1",
+    "@vercel/speed-insights": "^1.3.1",
+    "astro": "^5.17.1",
+    "astro-mermaid": "^1.3.1",
+    "astro-seo": "^1.1.0",
+    "tailwindcss": "^4.2.1"
+  }
+}

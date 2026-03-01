@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostPreview from '../../components/PostPreview.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Blog" description="All blog posts">
+  <section class="blog-index">
+    <header class="page-header">
+      <div class="header-content animate-fade-in-up">
+        <h1 class="page-title">Writing</h1>
+        <p class="page-subtitle">Thoughts on design, development, and simplicity.</p>
+      </div>
+    </header>
+    
+    <div class="posts-list">
+      {posts.length > 0 ? (
+        posts.map((post, index) => (
+          <div class="post-wrapper animate-fade-in-up" style={`animation-delay: ${index * 0.1}s`}>
+            <PostPreview post={post} />
+          </div>
+        ))
+      ) : (
+        <p class="no-posts">No posts yet. Check back soon!</p>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .blog-index {
+    padding: 4rem 1.5rem 4rem;
+    max-width: var(--spacing-content);
+    margin: 0 auto;
+  }
+
+  .page-header {
+    margin-bottom: 3rem;
+    text-align: center;
+    position: relative;
+    padding: 3rem 0;
+  }
+
+  .page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    border-radius: 2px;
+  }
+
+  .page-title {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    background: linear-gradient(135deg, var(--text), var(--text-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .page-subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .posts-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-wrapper {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease forwards;
+  }
+
+  .no-posts {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 3rem 0;
+  }
+
+  @media (max-width: 640px) {
+    .blog-index {
+      padding: 2rem 1rem 3rem;
+    }
+
+    .page-title {
+      font-size: 2.25rem;
+    }
+
+    .page-header {
+      padding: 2rem 0;
+    }
+  }
+</style>

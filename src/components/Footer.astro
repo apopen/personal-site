@@ -1,0 +1,73 @@
+---
+import { siteConfig } from '../lib/config';
+---
+
+<footer class="footer">
+  <div class="footer-container">
+    <p class="footer-text">
+      &copy; {new Date().getFullYear()} {siteConfig.author.name}. All rights reserved.
+    </p>
+    <div class="footer-links">
+      {siteConfig.author.twitter && (
+        <a href={`https://twitter.com/${siteConfig.author.twitter.replace('@', '')}`} target="_blank" rel="noopener noreferrer">
+          Twitter
+        </a>
+      )}
+      {siteConfig.author.github && (
+        <a href={`https://github.com/${siteConfig.author.github}`} target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      )}
+      <a href="/rss.xml">RSS</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: auto;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .footer-container {
+    max-width: var(--spacing-container);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-text {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .footer-links a {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .footer-links a:hover {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  @media (max-width: 640px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>

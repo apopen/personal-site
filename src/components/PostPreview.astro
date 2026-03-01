@@ -1,0 +1,130 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const { title, description, pubDate } = post.data;
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+---
+
+<article class="post-preview">
+  <a href={`/blog/${post.slug}`} class="post-link">
+    <div class="post-content">
+      <h2 class="post-title">{title}</h2>
+      <time datetime={pubDate.toISOString()} class="post-date">{formatDate(pubDate)}</time>
+      <p class="post-excerpt">{description}</p>
+    </div>
+    <div class="post-arrow">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </div>
+  </a>
+</article>
+
+<style>
+  .post-preview {
+    padding: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .post-preview:last-child {
+    border-bottom: none;
+  }
+
+  .post-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    text-decoration: none;
+    padding: 1.75rem 0;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+    margin: 0 -0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .post-link:hover {
+    text-decoration: none;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
+    transform: translateX(4px);
+  }
+
+  :global(.dark) .post-link:hover {
+    background: linear-gradient(135deg, rgba(96, 165, 250, 0.05), rgba(167, 139, 250, 0.05));
+  }
+
+  .post-content {
+    flex: 1;
+  }
+
+  .post-title {
+    font-family: "Instrument Serif", Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 0.5rem;
+    transition: all 0.2s ease;
+  }
+
+  .post-link:hover .post-title {
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .post-date {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+  }
+
+  .post-excerpt {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .post-arrow {
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.25s ease;
+    color: var(--text-secondary);
+  }
+
+  .post-link:hover .post-arrow {
+    opacity: 1;
+    transform: translateX(0);
+    color: var(--accent);
+  }
+
+  @media (max-width: 640px) {
+    .post-link {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .post-arrow {
+      display: none;
+    }
+  }
+</style>

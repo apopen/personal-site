@@ -1,0 +1,21 @@
+---
+const siteConfig = await import('../lib/config.ts');
+const { siteConfig: config } = siteConfig;
+---
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": config.author.name,
+  "url": config.siteUrl,
+  "jobTitle": "Technology Leader",
+  "sameAs": [
+    config.author.linkedin ? `https://ca.linkedin.com/in/${config.author.linkedin}` : null,
+    config.author.github ? `https://github.com/${config.author.github}` : null,
+    config.author.twitter ? `https://twitter.com/${config.author.twitter.replace('@', '')}` : null
+  ].filter(Boolean),
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Technology Leadership"
+  }
+})} />

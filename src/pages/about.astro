@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../lib/config';
+---
+
+<BaseLayout title="About" description="Learn more about me">
+  <section class="about">
+    <div class="about-content">
+      <h1 class="page-title">About</h1>
+      
+      <div class="about-text">
+        <p>
+          I'm {siteConfig.author.name}, a seasoned technology leader with over two decades of experience in web-based business applications.
+        </p>
+        
+        <p>
+          I have a passion for delivering top-notch software solutions that drive business success, with a proven track record of delivering innovative and scalable solutions across a wide range of domains—particularly in SaaS products, application architecture, microservices, product design, and team leadership.
+        </p>
+
+        <p>
+          My expertise spans Angular, TypeScript, PHP, AWS, DevOps, layered services-based architecture, test-driven development, product design systems, and cloud scalability. I'm highly skilled in leading cross-functional teams and executing projects from conceptualization to deployment.
+        </p>
+
+        <p>
+          I'm a problem-solver at heart, always striving to stay up-to-date with the latest trends and technologies. I'm committed to continuous learning and have a strong desire to share my knowledge and experience with others.
+        </p>
+      </div>
+
+      <div class="social-links">
+        <h2>Connect</h2>
+        <ul>
+          {siteConfig.author.email && (
+            <li>
+              <a href={`mailto:${siteConfig.author.email}`}>Email</a>
+            </li>
+          )}
+          {siteConfig.author.linkedin && (
+            <li>
+              <a href={`https://ca.linkedin.com/in/${siteConfig.author.linkedin}`} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </li>
+          )}
+          {siteConfig.author.github && (
+            <li>
+              <a href={`https://github.com/${siteConfig.author.github}`} target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </li>
+          )}
+        </ul>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .about {
+    padding: 3rem 1.5rem 4rem;
+  }
+
+  .about-content {
+    max-width: var(--spacing-content);
+    margin: 0 auto;
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-text {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+  }
+
+  .about-text p {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-text p:first-of-type {
+    font-size: 1.25rem;
+    color: var(--text);
+  }
+
+  .social-links {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .social-links h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .social-links li {
+    margin: 0;
+  }
+
+  .social-links a {
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .social-links a:hover {
+    text-decoration: none;
+    color: var(--accent);
+  }
+
+  @media (max-width: 640px) {
+    .about {
+      padding: 2rem 1rem 3rem;
+    }
+
+    .page-title {
+      font-size: 2rem;
+    }
+
+    .about-text {
+      font-size: 1rem;
+    }
+
+    .about-text p:first-of-type {
+      font-size: 1.125rem;
+    }
+  }
+</style>
