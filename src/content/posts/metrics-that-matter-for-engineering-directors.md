@@ -2,7 +2,7 @@
 title: "Metrics That Matter for Engineering Directors"
 description: "A quick look at the engineering metrics that actually matter, and the ones that only look good on a dashboard."
 pubDate: 2025-02-20
-tags: ["development", "web", "performance"]
+tags: ["leadership", "engineering-management", "metrics"]
 ---
 ### What to measure, what to ignore, and how to avoid vanity KPIs
 

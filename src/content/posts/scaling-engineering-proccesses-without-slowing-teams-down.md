@@ -1,8 +1,7 @@
----
-title: "Scaling Engineering Processes Without Slowing Teams Down  "
+title: "Scaling Engineering Processes Without Slowing Teams Down"
 description: "If your engineering org is growing faster than your processes can keep up, this guide shows how to add structure without accidentally creating a bureaucracy that needs its own org chart."
 pubDate: 2025-05-12
-tags: ["development", "web", "performance"]
+tags: ["engineering-management", "process", "governance"]
 ---
 
 ### Lightweight Governance Models That Actually Work
@@ -43,7 +42,7 @@ Approvals slow teams down. Visibility scales. A shared dashboard beats a mandato
 
 ---
 
-## Lightweight Governance Models That Actually Work
+## Governance Models That Actually Work
 
 ### The Paved Road Model
 A paved road is a well‑supported, well‑documented, well‑tooled path for building and operating software. Teams can leave it, but they do so knowingly and with a bit more responsibility. It’s the engineering equivalent of “you can eat whatever you want, but don’t complain if your stomach hurts.”
